@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22757" systemVersion="23E224" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AddedProductData" representedClassName="AddedProductData" syncable="YES">
+        <attribute name="productAuctionDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="productAuctionDateTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="productAuctionTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="productID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="productImage" optional="YES" attributeType="Binary"/>
+        <attribute name="productMinPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="productName" optional="YES" attributeType="String"/>
+        <attribute name="productOwnerId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="productSubmitBy" optional="YES" attributeType="String"/>
+        <attribute name="productSubmitDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="productSubmitTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="saleStatus" optional="YES" attributeType="String"/>
+        <attribute name="soldStatus" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="BidsData" representedClassName="BidsData" syncable="YES">
+        <attribute name="bidAmount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="bidAuctionStartDateTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="biderID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="bidID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="bidPlaced" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="bidProductID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="bidProductImage" optional="YES" attributeType="Binary"/>
+        <attribute name="bidProductName" optional="YES" attributeType="String"/>
+        <attribute name="bidProductOwnerId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="FinalBidData" representedClassName="FinalBidData" syncable="YES">
+        <attribute name="fbBidedAmt" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fbDateTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fbProductBidderId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="fbProductId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="fbProductImage" optional="YES" attributeType="Binary"/>
+        <attribute name="fbProductName" optional="YES" attributeType="String"/>
+        <attribute name="fbProductSellerId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="SellersWalletData" representedClassName="SellersWalletData" syncable="YES">
+        <attribute name="sellerWalletBalance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sellerWalletId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="sellterWalletSaleAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sellterWalletWithdrawAmount" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="UserProfileData" representedClassName="UserProfileData" syncable="YES">
+        <attribute name="usercreationdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="useremail" optional="YES" attributeType="String"/>
+        <attribute name="userid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="userimage" optional="YES" attributeType="Binary"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <attribute name="userpassword" optional="YES" attributeType="String"/>
+        <attribute name="userstatus" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="usertype" optional="YES" attributeType="String"/>
+        <attribute name="usertypecode" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="WalletData" representedClassName="WalletData" syncable="YES">
+        <attribute name="walletHoldBalance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="walletId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="walletTotalBalance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="walletUnHoldBalance" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="walletUserId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+</model>

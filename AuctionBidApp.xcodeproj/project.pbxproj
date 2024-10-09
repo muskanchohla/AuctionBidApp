@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		852AB9612BBB968A003B6E0F /* ListedProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852AB9602BBB968A003B6E0F /* ListedProductCollectionViewCell.swift */; };
+		853B1B212BB76AF900EC3D62 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B1B202BB76AF900EC3D62 /* LoginTableViewController.swift */; };
+		85876BE52BB7BA7B000CD4E7 /* SellerHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85876BE42BB7BA7B000CD4E7 /* SellerHomeTableViewController.swift */; };
+		85960DF92BBB094D00A2D521 /* AuctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85960DF82BBB094D00A2D521 /* AuctionsViewController.swift */; };
+		85B893682BB6B41A00C51B31 /* UserProfileData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B893662BB6B41A00C51B31 /* UserProfileData+CoreDataClass.swift */; };
+		85B893692BB6B41A00C51B31 /* UserProfileData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B893672BB6B41A00C51B31 /* UserProfileData+CoreDataProperties.swift */; };
+		85B8936B2BB6C6A700C51B31 /* CreatedUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B8936A2BB6C6A700C51B31 /* CreatedUserTableViewController.swift */; };
+		85CA050E2BB65E9E00E27698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA050D2BB65E9E00E27698 /* AppDelegate.swift */; };
+		85CA05102BB65E9E00E27698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA050F2BB65E9E00E27698 /* SceneDelegate.swift */; };
+		85CA05122BB65E9E00E27698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA05112BB65E9E00E27698 /* ViewController.swift */; };
+		85CA05152BB65E9E00E27698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CA05132BB65E9E00E27698 /* Main.storyboard */; };
+		85CA05182BB65E9E00E27698 /* AuctionBidApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85CA05162BB65E9E00E27698 /* AuctionBidApp.xcdatamodeld */; };
+		85CA051A2BB65EA000E27698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CA05192BB65EA000E27698 /* Assets.xcassets */; };
+		85CA051D2BB65EA000E27698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CA051B2BB65EA000E27698 /* LaunchScreen.storyboard */; };
+		85CA05282BB65EA000E27698 /* AuctionBidAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA05272BB65EA000E27698 /* AuctionBidAppTests.swift */; };
+		85CA05322BB65EA000E27698 /* AuctionBidAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA05312BB65EA000E27698 /* AuctionBidAppUITests.swift */; };
+		85CA05342BB65EA000E27698 /* AuctionBidAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA05332BB65EA000E27698 /* AuctionBidAppUITestsLaunchTests.swift */; };
+		85CA05452BB6999F00E27698 /* SignUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA05442BB6999F00E27698 /* SignUpTableViewController.swift */; };
+		85CEDD582BC78F910023250D /* bidderHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CEDD572BC78F910023250D /* bidderHomeViewController.swift */; };
+		85D38BE22BCB6FE10088EC9A /* AvailableAuctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D38BE12BCB6FE10088EC9A /* AvailableAuctionsViewController.swift */; };
+		85D38BE42BCB70C30088EC9A /* AvailableAuctionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D38BE32BCB70C30088EC9A /* AvailableAuctionsCollectionViewCell.swift */; };
+		85DC47862BB9138100AF6308 /* AddNewProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC47852BB9138100AF6308 /* AddNewProductTableViewController.swift */; };
+		85DC47912BB9268200AF6308 /* AddedProductData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC478F2BB9268200AF6308 /* AddedProductData+CoreDataClass.swift */; };
+		85DC47922BB9268200AF6308 /* AddedProductData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC47902BB9268200AF6308 /* AddedProductData+CoreDataProperties.swift */; };
+		A4248CD62BCF8C1300949DDA /* UpcommingAuctionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4248CD52BCF8C1300949DDA /* UpcommingAuctionsCollectionViewCell.swift */; };
+		A4248CD82BCF8C4300949DDA /* UpcommingAuctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4248CD72BCF8C4300949DDA /* UpcommingAuctionsViewController.swift */; };
+		A479EC802BE0841900FB7CCE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A479EC7F2BE0841900FB7CCE /* ProfileViewController.swift */; };
+		A4A8659E2BD8186D0027140F /* PurchasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A8659D2BD8186D0027140F /* PurchasesViewController.swift */; };
+		A4A865A02BD818BA0027140F /* PurchasesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A8659F2BD818BA0027140F /* PurchasesCollectionViewCell.swift */; };
+		A4A8E48F2BDC8CC9000389DA /* FinalBidData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A8E48D2BDC8CC9000389DA /* FinalBidData+CoreDataClass.swift */; };
+		A4A8E4902BDC8CC9000389DA /* FinalBidData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A8E48E2BDC8CC9000389DA /* FinalBidData+CoreDataProperties.swift */; };
+		A4A922802BD243EC00404EB9 /* BidsData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9227E2BD243EC00404EB9 /* BidsData+CoreDataClass.swift */; };
+		A4A922812BD243EC00404EB9 /* BidsData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9227F2BD243EC00404EB9 /* BidsData+CoreDataProperties.swift */; };
+		A4B32EB32BD4F37500AAF4A2 /* MyBidsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B32EB22BD4F37500AAF4A2 /* MyBidsViewController.swift */; };
+		A4B32EB52BD4F44E00AAF4A2 /* MyBidsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B32EB42BD4F44E00AAF4A2 /* MyBidsCollectionViewCell.swift */; };
+		A4EF7C522BE257FA00EC82CB /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EF7C512BE257FA00EC82CB /* ForgotPasswordViewController.swift */; };
+		A4EF7C542BE267C400EC82CB /* globalCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EF7C532BE267C400EC82CB /* globalCode.swift */; };
+		A4F5B8292BD4AB3400AFDB34 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F5B8282BD4AB3400AFDB34 /* WalletViewController.swift */; };
+		A4F5B8302BD4B4F300AFDB34 /* WalletData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F5B82E2BD4B4F300AFDB34 /* WalletData+CoreDataClass.swift */; };
+		A4F5B8312BD4B4F300AFDB34 /* WalletData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F5B82F2BD4B4F300AFDB34 /* WalletData+CoreDataProperties.swift */; };
+		A4FA4F452BDE998500F35BD8 /* SellerWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA4F442BDE998500F35BD8 /* SellerWalletViewController.swift */; };
+		A4FA4F4C2BDE9AE000F35BD8 /* SellersWalletData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA4F4A2BDE9AE000F35BD8 /* SellersWalletData+CoreDataClass.swift */; };
+		A4FA4F4D2BDE9AE000F35BD8 /* SellersWalletData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FA4F4B2BDE9AE000F35BD8 /* SellersWalletData+CoreDataProperties.swift */; };
+		A4FFFD4F2BD1BEC700F9653F /* no-no-no-nope.png.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4FFFD4E2BD1BEC700F9653F /* no-no-no-nope.png.gif */; };
+		A4FFFD512BD1C31400F9653F /* happy-emoji-3.html in Resources */ = {isa = PBXBuildFile; fileRef = A4FFFD502BD1C31400F9653F /* happy-emoji-3.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85CA05242BB65EA000E27698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85CA05022BB65E9E00E27698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85CA05092BB65E9E00E27698;
+			remoteInfo = AuctionBidApp;
+		};
+		85CA052E2BB65EA000E27698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85CA05022BB65E9E00E27698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85CA05092BB65E9E00E27698;
+			remoteInfo = AuctionBidApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		852AB9602BBB968A003B6E0F /* ListedProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListedProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		853B1B202BB76AF900EC3D62 /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		85876BE42BB7BA7B000CD4E7 /* SellerHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerHomeTableViewController.swift; sourceTree = "<group>"; };
+		85960DF82BBB094D00A2D521 /* AuctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionsViewController.swift; sourceTree = "<group>"; };
+		85B893662BB6B41A00C51B31 /* UserProfileData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfileData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		85B893672BB6B41A00C51B31 /* UserProfileData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfileData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		85B8936A2BB6C6A700C51B31 /* CreatedUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedUserTableViewController.swift; sourceTree = "<group>"; };
+		85CA050A2BB65E9E00E27698 /* AuctionBidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuctionBidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CA050D2BB65E9E00E27698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85CA050F2BB65E9E00E27698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85CA05112BB65E9E00E27698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85CA05142BB65E9E00E27698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85CA05172BB65E9E00E27698 /* AuctionBidApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AuctionBidApp.xcdatamodel; sourceTree = "<group>"; };
+		85CA05192BB65EA000E27698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85CA051C2BB65EA000E27698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85CA051E2BB65EA000E27698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85CA05232BB65EA000E27698 /* AuctionBidAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuctionBidAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CA05272BB65EA000E27698 /* AuctionBidAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionBidAppTests.swift; sourceTree = "<group>"; };
+		85CA052D2BB65EA000E27698 /* AuctionBidAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuctionBidAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CA05312BB65EA000E27698 /* AuctionBidAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionBidAppUITests.swift; sourceTree = "<group>"; };
+		85CA05332BB65EA000E27698 /* AuctionBidAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionBidAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85CA05442BB6999F00E27698 /* SignUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTableViewController.swift; sourceTree = "<group>"; };
+		85CEDD572BC78F910023250D /* bidderHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bidderHomeViewController.swift; sourceTree = "<group>"; };
+		85D38BE12BCB6FE10088EC9A /* AvailableAuctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableAuctionsViewController.swift; sourceTree = "<group>"; };
+		85D38BE32BCB70C30088EC9A /* AvailableAuctionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableAuctionsCollectionViewCell.swift; sourceTree = "<group>"; };
+		85DC47852BB9138100AF6308 /* AddNewProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewProductTableViewController.swift; sourceTree = "<group>"; };
+		85DC478F2BB9268200AF6308 /* AddedProductData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddedProductData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		85DC47902BB9268200AF6308 /* AddedProductData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddedProductData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A4248CD52BCF8C1300949DDA /* UpcommingAuctionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcommingAuctionsCollectionViewCell.swift; sourceTree = "<group>"; };
+		A4248CD72BCF8C4300949DDA /* UpcommingAuctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcommingAuctionsViewController.swift; sourceTree = "<group>"; };
+		A479EC7F2BE0841900FB7CCE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A4A8659D2BD8186D0027140F /* PurchasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasesViewController.swift; sourceTree = "<group>"; };
+		A4A8659F2BD818BA0027140F /* PurchasesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasesCollectionViewCell.swift; sourceTree = "<group>"; };
+		A4A8E48D2BDC8CC9000389DA /* FinalBidData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FinalBidData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A4A8E48E2BDC8CC9000389DA /* FinalBidData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FinalBidData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A4A9227E2BD243EC00404EB9 /* BidsData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BidsData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A4A9227F2BD243EC00404EB9 /* BidsData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BidsData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A4B32EB22BD4F37500AAF4A2 /* MyBidsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBidsViewController.swift; sourceTree = "<group>"; };
+		A4B32EB42BD4F44E00AAF4A2 /* MyBidsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBidsCollectionViewCell.swift; sourceTree = "<group>"; };
+		A4EF7C512BE257FA00EC82CB /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		A4EF7C532BE267C400EC82CB /* globalCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalCode.swift; sourceTree = "<group>"; };
+		A4F5B8282BD4AB3400AFDB34 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		A4F5B82E2BD4B4F300AFDB34 /* WalletData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WalletData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A4F5B82F2BD4B4F300AFDB34 /* WalletData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WalletData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A4FA4F442BDE998500F35BD8 /* SellerWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerWalletViewController.swift; sourceTree = "<group>"; };
+		A4FA4F4A2BDE9AE000F35BD8 /* SellersWalletData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SellersWalletData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A4FA4F4B2BDE9AE000F35BD8 /* SellersWalletData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SellersWalletData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A4FFFD4E2BD1BEC700F9653F /* no-no-no-nope.png.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "no-no-no-nope.png.gif"; path = "../../../Desktop/no-no-no-nope.png.gif"; sourceTree = "<group>"; };
+		A4FFFD502BD1C31400F9653F /* happy-emoji-3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "happy-emoji-3.html"; path = "../../../Desktop/happy-emoji-3.html"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85CA05072BB65E9E00E27698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA05202BB65EA000E27698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA052A2BB65EA000E27698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85CA05012BB65E9E00E27698 = {
+			isa = PBXGroup;
+			children = (
+				85CA050C2BB65E9E00E27698 /* AuctionBidApp */,
+				85CA05262BB65EA000E27698 /* AuctionBidAppTests */,
+				85CA05302BB65EA000E27698 /* AuctionBidAppUITests */,
+				85CA050B2BB65E9E00E27698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85CA050B2BB65E9E00E27698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85CA050A2BB65E9E00E27698 /* AuctionBidApp.app */,
+				85CA05232BB65EA000E27698 /* AuctionBidAppTests.xctest */,
+				85CA052D2BB65EA000E27698 /* AuctionBidAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85CA050C2BB65E9E00E27698 /* AuctionBidApp */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA4F4A2BDE9AE000F35BD8 /* SellersWalletData+CoreDataClass.swift */,
+				A4FA4F4B2BDE9AE000F35BD8 /* SellersWalletData+CoreDataProperties.swift */,
+				A4F5B82E2BD4B4F300AFDB34 /* WalletData+CoreDataClass.swift */,
+				A4A8E48D2BDC8CC9000389DA /* FinalBidData+CoreDataClass.swift */,
+				A4A8E48E2BDC8CC9000389DA /* FinalBidData+CoreDataProperties.swift */,
+				A4F5B82F2BD4B4F300AFDB34 /* WalletData+CoreDataProperties.swift */,
+				85CA050D2BB65E9E00E27698 /* AppDelegate.swift */,
+				A4A9227E2BD243EC00404EB9 /* BidsData+CoreDataClass.swift */,
+				A4A9227F2BD243EC00404EB9 /* BidsData+CoreDataProperties.swift */,
+				85DC478F2BB9268200AF6308 /* AddedProductData+CoreDataClass.swift */,
+				85DC47902BB9268200AF6308 /* AddedProductData+CoreDataProperties.swift */,
+				85B893662BB6B41A00C51B31 /* UserProfileData+CoreDataClass.swift */,
+				85B893672BB6B41A00C51B31 /* UserProfileData+CoreDataProperties.swift */,
+				85CA050F2BB65E9E00E27698 /* SceneDelegate.swift */,
+				85CA05112BB65E9E00E27698 /* ViewController.swift */,
+				A4FFFD502BD1C31400F9653F /* happy-emoji-3.html */,
+				A4FFFD4E2BD1BEC700F9653F /* no-no-no-nope.png.gif */,
+				85CA05132BB65E9E00E27698 /* Main.storyboard */,
+				A4EF7C512BE257FA00EC82CB /* ForgotPasswordViewController.swift */,
+				A479EC7F2BE0841900FB7CCE /* ProfileViewController.swift */,
+				A4FA4F442BDE998500F35BD8 /* SellerWalletViewController.swift */,
+				A4A8659F2BD818BA0027140F /* PurchasesCollectionViewCell.swift */,
+				A4A8659D2BD8186D0027140F /* PurchasesViewController.swift */,
+				A4B32EB42BD4F44E00AAF4A2 /* MyBidsCollectionViewCell.swift */,
+				A4B32EB22BD4F37500AAF4A2 /* MyBidsViewController.swift */,
+				A4F5B8282BD4AB3400AFDB34 /* WalletViewController.swift */,
+				A4248CD72BCF8C4300949DDA /* UpcommingAuctionsViewController.swift */,
+				85CA05192BB65EA000E27698 /* Assets.xcassets */,
+				A4248CD52BCF8C1300949DDA /* UpcommingAuctionsCollectionViewCell.swift */,
+				85CA051B2BB65EA000E27698 /* LaunchScreen.storyboard */,
+				85CA051E2BB65EA000E27698 /* Info.plist */,
+				85CA05162BB65E9E00E27698 /* AuctionBidApp.xcdatamodeld */,
+				85CA05442BB6999F00E27698 /* SignUpTableViewController.swift */,
+				85B8936A2BB6C6A700C51B31 /* CreatedUserTableViewController.swift */,
+				853B1B202BB76AF900EC3D62 /* LoginTableViewController.swift */,
+				85876BE42BB7BA7B000CD4E7 /* SellerHomeTableViewController.swift */,
+				85DC47852BB9138100AF6308 /* AddNewProductTableViewController.swift */,
+				85960DF82BBB094D00A2D521 /* AuctionsViewController.swift */,
+				852AB9602BBB968A003B6E0F /* ListedProductCollectionViewCell.swift */,
+				85D38BE32BCB70C30088EC9A /* AvailableAuctionsCollectionViewCell.swift */,
+				85CEDD572BC78F910023250D /* bidderHomeViewController.swift */,
+				85D38BE12BCB6FE10088EC9A /* AvailableAuctionsViewController.swift */,
+				A4EF7C532BE267C400EC82CB /* globalCode.swift */,
+			);
+			path = AuctionBidApp;
+			sourceTree = "<group>";
+		};
+		85CA05262BB65EA000E27698 /* AuctionBidAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				85CA05272BB65EA000E27698 /* AuctionBidAppTests.swift */,
+			);
+			path = AuctionBidAppTests;
+			sourceTree = "<group>";
+		};
+		85CA05302BB65EA000E27698 /* AuctionBidAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85CA05312BB65EA000E27698 /* AuctionBidAppUITests.swift */,
+				85CA05332BB65EA000E27698 /* AuctionBidAppUITestsLaunchTests.swift */,
+			);
+			path = AuctionBidAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85CA05092BB65E9E00E27698 /* AuctionBidApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85CA05372BB65EA000E27698 /* Build configuration list for PBXNativeTarget "AuctionBidApp" */;
+			buildPhases = (
+				85CA05062BB65E9E00E27698 /* Sources */,
+				85CA05072BB65E9E00E27698 /* Frameworks */,
+				85CA05082BB65E9E00E27698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuctionBidApp;
+			productName = AuctionBidApp;
+			productReference = 85CA050A2BB65E9E00E27698 /* AuctionBidApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85CA05222BB65EA000E27698 /* AuctionBidAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85CA053A2BB65EA000E27698 /* Build configuration list for PBXNativeTarget "AuctionBidAppTests" */;
+			buildPhases = (
+				85CA051F2BB65EA000E27698 /* Sources */,
+				85CA05202BB65EA000E27698 /* Frameworks */,
+				85CA05212BB65EA000E27698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85CA05252BB65EA000E27698 /* PBXTargetDependency */,
+			);
+			name = AuctionBidAppTests;
+			productName = AuctionBidAppTests;
+			productReference = 85CA05232BB65EA000E27698 /* AuctionBidAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85CA052C2BB65EA000E27698 /* AuctionBidAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85CA053D2BB65EA000E27698 /* Build configuration list for PBXNativeTarget "AuctionBidAppUITests" */;
+			buildPhases = (
+				85CA05292BB65EA000E27698 /* Sources */,
+				85CA052A2BB65EA000E27698 /* Frameworks */,
+				85CA052B2BB65EA000E27698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85CA052F2BB65EA000E27698 /* PBXTargetDependency */,
+			);
+			name = AuctionBidAppUITests;
+			productName = AuctionBidAppUITests;
+			productReference = 85CA052D2BB65EA000E27698 /* AuctionBidAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85CA05022BB65E9E00E27698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					85CA05092BB65E9E00E27698 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					85CA05222BB65EA000E27698 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 85CA05092BB65E9E00E27698;
+					};
+					85CA052C2BB65EA000E27698 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 85CA05092BB65E9E00E27698;
+					};
+				};
+			};
+			buildConfigurationList = 85CA05052BB65E9E00E27698 /* Build configuration list for PBXProject "AuctionBidApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85CA05012BB65E9E00E27698;
+			productRefGroup = 85CA050B2BB65E9E00E27698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85CA05092BB65E9E00E27698 /* AuctionBidApp */,
+				85CA05222BB65EA000E27698 /* AuctionBidAppTests */,
+				85CA052C2BB65EA000E27698 /* AuctionBidAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85CA05082BB65E9E00E27698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FFFD4F2BD1BEC700F9653F /* no-no-no-nope.png.gif in Resources */,
+				85CA051D2BB65EA000E27698 /* LaunchScreen.storyboard in Resources */,
+				85CA051A2BB65EA000E27698 /* Assets.xcassets in Resources */,
+				85CA05152BB65E9E00E27698 /* Main.storyboard in Resources */,
+				A4FFFD512BD1C31400F9653F /* happy-emoji-3.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA05212BB65EA000E27698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA052B2BB65EA000E27698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85CA05062BB65E9E00E27698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4248CD82BCF8C4300949DDA /* UpcommingAuctionsViewController.swift in Sources */,
+				85DC47912BB9268200AF6308 /* AddedProductData+CoreDataClass.swift in Sources */,
+				85CA05452BB6999F00E27698 /* SignUpTableViewController.swift in Sources */,
+				85B893692BB6B41A00C51B31 /* UserProfileData+CoreDataProperties.swift in Sources */,
+				853B1B212BB76AF900EC3D62 /* LoginTableViewController.swift in Sources */,
+				A4A865A02BD818BA0027140F /* PurchasesCollectionViewCell.swift in Sources */,
+				85CA05122BB65E9E00E27698 /* ViewController.swift in Sources */,
+				85DC47922BB9268200AF6308 /* AddedProductData+CoreDataProperties.swift in Sources */,
+				A4A8E48F2BDC8CC9000389DA /* FinalBidData+CoreDataClass.swift in Sources */,
+				A4EF7C542BE267C400EC82CB /* globalCode.swift in Sources */,
+				A4A8E4902BDC8CC9000389DA /* FinalBidData+CoreDataProperties.swift in Sources */,
+				A4F5B8292BD4AB3400AFDB34 /* WalletViewController.swift in Sources */,
+				85DC47862BB9138100AF6308 /* AddNewProductTableViewController.swift in Sources */,
+				85876BE52BB7BA7B000CD4E7 /* SellerHomeTableViewController.swift in Sources */,
+				85B893682BB6B41A00C51B31 /* UserProfileData+CoreDataClass.swift in Sources */,
+				85CA05182BB65E9E00E27698 /* AuctionBidApp.xcdatamodeld in Sources */,
+				A4FA4F4C2BDE9AE000F35BD8 /* SellersWalletData+CoreDataClass.swift in Sources */,
+				A4FA4F4D2BDE9AE000F35BD8 /* SellersWalletData+CoreDataProperties.swift in Sources */,
+				A4F5B8302BD4B4F300AFDB34 /* WalletData+CoreDataClass.swift in Sources */,
+				A4F5B8312BD4B4F300AFDB34 /* WalletData+CoreDataProperties.swift in Sources */,
+				852AB9612BBB968A003B6E0F /* ListedProductCollectionViewCell.swift in Sources */,
+				85CEDD582BC78F910023250D /* bidderHomeViewController.swift in Sources */,
+				A4B32EB32BD4F37500AAF4A2 /* MyBidsViewController.swift in Sources */,
+				A4FA4F452BDE998500F35BD8 /* SellerWalletViewController.swift in Sources */,
+				85960DF92BBB094D00A2D521 /* AuctionsViewController.swift in Sources */,
+				A4248CD62BCF8C1300949DDA /* UpcommingAuctionsCollectionViewCell.swift in Sources */,
+				85B8936B2BB6C6A700C51B31 /* CreatedUserTableViewController.swift in Sources */,
+				A4A922802BD243EC00404EB9 /* BidsData+CoreDataClass.swift in Sources */,
+				A4A922812BD243EC00404EB9 /* BidsData+CoreDataProperties.swift in Sources */,
+				A4B32EB52BD4F44E00AAF4A2 /* MyBidsCollectionViewCell.swift in Sources */,
+				85CA050E2BB65E9E00E27698 /* AppDelegate.swift in Sources */,
+				85D38BE22BCB6FE10088EC9A /* AvailableAuctionsViewController.swift in Sources */,
+				A4A8659E2BD8186D0027140F /* PurchasesViewController.swift in Sources */,
+				A4EF7C522BE257FA00EC82CB /* ForgotPasswordViewController.swift in Sources */,
+				A479EC802BE0841900FB7CCE /* ProfileViewController.swift in Sources */,
+				85D38BE42BCB70C30088EC9A /* AvailableAuctionsCollectionViewCell.swift in Sources */,
+				85CA05102BB65E9E00E27698 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA051F2BB65EA000E27698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CA05282BB65EA000E27698 /* AuctionBidAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85CA05292BB65EA000E27698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CA05342BB65EA000E27698 /* AuctionBidAppUITestsLaunchTests.swift in Sources */,
+				85CA05322BB65EA000E27698 /* AuctionBidAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85CA05252BB65EA000E27698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85CA05092BB65E9E00E27698 /* AuctionBidApp */;
+			targetProxy = 85CA05242BB65EA000E27698 /* PBXContainerItemProxy */;
+		};
+		85CA052F2BB65EA000E27698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85CA05092BB65E9E00E27698 /* AuctionBidApp */;
+			targetProxy = 85CA052E2BB65EA000E27698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85CA05132BB65E9E00E27698 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85CA05142BB65E9E00E27698 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85CA051B2BB65EA000E27698 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85CA051C2BB65EA000E27698 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85CA05352BB65EA000E27698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85CA05362BB65EA000E27698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85CA05382BB65EA000E27698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuctionBidApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = muskan.AuctionBidApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		85CA05392BB65EA000E27698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuctionBidApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = muskan.AuctionBidApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		85CA053B2BB65EA000E27698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = muskan.AuctionBidAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuctionBidApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AuctionBidApp";
+			};
+			name = Debug;
+		};
+		85CA053C2BB65EA000E27698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = muskan.AuctionBidAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuctionBidApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AuctionBidApp";
+			};
+			name = Release;
+		};
+		85CA053E2BB65EA000E27698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = muskan.AuctionBidAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AuctionBidApp;
+			};
+			name = Debug;
+		};
+		85CA053F2BB65EA000E27698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = muskan.AuctionBidAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AuctionBidApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85CA05052BB65E9E00E27698 /* Build configuration list for PBXProject "AuctionBidApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CA05352BB65EA000E27698 /* Debug */,
+				85CA05362BB65EA000E27698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85CA05372BB65EA000E27698 /* Build configuration list for PBXNativeTarget "AuctionBidApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CA05382BB65EA000E27698 /* Debug */,
+				85CA05392BB65EA000E27698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85CA053A2BB65EA000E27698 /* Build configuration list for PBXNativeTarget "AuctionBidAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CA053B2BB65EA000E27698 /* Debug */,
+				85CA053C2BB65EA000E27698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85CA053D2BB65EA000E27698 /* Build configuration list for PBXNativeTarget "AuctionBidAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CA053E2BB65EA000E27698 /* Debug */,
+				85CA053F2BB65EA000E27698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85CA05162BB65E9E00E27698 /* AuctionBidApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85CA05172BB65E9E00E27698 /* AuctionBidApp.xcdatamodel */,
+			);
+			currentVersion = 85CA05172BB65E9E00E27698 /* AuctionBidApp.xcdatamodel */;
+			path = AuctionBidApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 85CA05022BB65E9E00E27698 /* Project object */;
+}
